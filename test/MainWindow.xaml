@@ -1,0 +1,17 @@
+﻿<Window x:Class="test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        xmlns:comp="clr-namespace:test.Component"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <comp:SearchBox BackgroundText="aaa" CanSearch="False"/>
+            <DataGrid x:Name="dg"/>
+            <DataGrid x:Name="dgInfo"/>
+        </StackPanel>
+    </Grid>
+</Window>
